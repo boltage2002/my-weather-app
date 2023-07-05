@@ -84,3 +84,57 @@
 .temperature>h1 {
   font-size: 50px;
 }
+@media screen and (max-width:320px) {
+  .container {
+    max-width: 200px;
+    margin: auto;
+    height: 50px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0rem;
+  }
+  .section {
+    width: 100%;
+    padding: 0rem;
+    border-radius: 0rem;
+    color: white;
+  }
+  .section__inputs, .section__temperature {
+    display: flex;
+    align-items: left;
+   justify-content:left;
+    background-color: var(--section-overlay);
+  
+  }
+  .section__inputs>input {
+    border: 0.2px solid white;
+    border-radius: 0.1rem;
+    background-color: transparent;
+    color: white;
+    padding: 0.1rem;
+    font-size: 10px;
+    font-weight: 100;
+  
+  }
+  .section__inputs>button {
+    padding: 2PX 10PX;
+    border: none;
+    border-radius: 00.2rem;
+    font-size: 1px;
+    font-weight: 200;
+    background-color: white;
+  
+  }
+  .icon>h3{
+    font-size: 7px;
+    font-weight: 10;
+    text-transform: capitalize;
+  }
+  .temperature>h1 {
+    font-size: 20px;
+  }
+
+}

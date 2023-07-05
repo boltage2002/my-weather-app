@@ -25,3 +25,33 @@
  .description__card-icon>small{
     text-transform: capitalize;
  }
+ @media screen and (max-width:320px){
+   .section__descriptions{
+      display: grid;
+      grid-template-columns: repeat(1,00.5fr);
+      gap: 1rem;
+   }
+   .card{
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: left;
+      background-color: var(--section-overlay);
+      padding: 0rem;
+      border-radius: 000.4rem;
+  
+   }
+   .description__card-icon {
+      width:100%;
+      display: list-item;
+      flex-direction: column-reverse;
+      align-items: left;
+      justify-content: left;
+      gap: 000.1px;
+      margin-bottom: 0px;
+   }
+   .description__card-icon>small{
+      text-transform: capitalize;
+   }
+   
+ }
